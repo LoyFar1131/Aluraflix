@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    margin-bottom: 100px;
+
+}
+
+
+header {
+    color: yellow;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.section-call {
+    background: rgb(20, 20, 20);
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+.text {
+    margin: 5%;
+
+}
+
+.video {
+    padding-left: 300px;
+
+}
+
+
+.category-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.categories {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.category-videos img {
+    opacity: 0.3;
+    width: 250;
+    height: 200;
+
+}
+
+.category-videos img:hover {
+    opacity: 1;
+    width: 275;
+    height: 220;
+    border: 1px solid white;
+
+}
+
+
+.categories h2 {
+    color: rgb(255, 255, 255);
+
+}
